@@ -14,6 +14,8 @@ using namespace std;
 
 int main() {
 	int largest = 0;
+	int num1 = 0;
+	int num2 = 0;
 	for (int i=100; i<999; i++) {
 		for (int j=100; j<999; j++) {
 			int k = i*j; //find product of the two numbers
@@ -26,10 +28,12 @@ int main() {
 			if (num == temp && number > largest)
 			{
 					largest = number;
+					num1 = i;
+					num2 = j;
 			}
 		}
 	}
 	
-	cout<<largest<<endl;
+	cout<<"Num1: "<<num1<<"  Num2: "<<num2<<"  Product: "<<largest<<endl;
 	return largest;
 }

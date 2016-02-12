@@ -1,4 +1,4 @@
-all: pe1 pe2 pe3 pe4 pe5 pe6 pe7 pe8 factor.o
+all: pe1 pe2 pe3 pe4 pe5 pe6 pe7 pe8 pe9 factor.o
 
 pe1: pe1.cpp
 	g++ -Wall -g -std=c++11 -o pe1 pe1.cpp
@@ -24,7 +24,8 @@ pe7: pe7.cpp
 pe8: pe8.cpp
 	g++ -Wall -g -std=c++11 -o pe8 pe8.cpp
 
-
+pe9: pe9.cpp
+	g++ -Wall -g -std=c++11 -o pe9 pe9.cpp
 
 	
 
