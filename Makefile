@@ -1,4 +1,4 @@
-all: threeandfive fib primefactor palindrome smallest factor.o
+all: threeandfive fib primefactor palindrome smallest squaresum factor.o
 
 threeandfive: threeandfive.cpp
 	g++ -Wall -g -std=c++11 -o threeandfive threeandfive.cpp
@@ -15,7 +15,8 @@ palindrome: palindrome.cpp
 smallest: smallest.cpp
 	g++ -Wall -g -std=c++11 -o smallest smallest.cpp
 
-
+squaresum: squaresum.cpp
+	g++ -Wall -g -std=c++11 -o squaresum squaresum.cpp
 
 
 
